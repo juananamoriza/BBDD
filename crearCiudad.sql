@@ -1,6 +1,6 @@
 create table CIUDAD
 (
-	nom_ciu		varchar2(50), -- cambio random
+	nom_ciu		varchar2(50),
 	extension	number(4),
 	constraint CP_CIUDAD primary key(nom_ciu)
 );
